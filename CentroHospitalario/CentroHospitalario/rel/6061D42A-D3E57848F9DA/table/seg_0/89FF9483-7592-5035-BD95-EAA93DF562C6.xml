@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89FF9483-7592-5035-BD95-EAA93DF562C6" name="Diagnostico_Paciente">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>3B888674-0BB3-8853-4762-BA1826995836</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nss_paciente" id="A94BA581-CD7B-7549-C34C-48BCE430A683">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>B7AD4093-105E-6173-E212-1D05B0E332B3</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E476F6A-DFE1-78AF-592A-1A4682B93F43" referredColumn="942DBF1E-DDBD-76F8-6867-C58AAE630DE8"/>
+</associations>
+</Column>
+<Column name="cod_diagnostico" id="B4EC7733-F7D2-244E-A307-E99196850BEF">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>E648725E-F731-6FFE-029B-2D8B40BCBB00</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF894E4D-CBA6-3239-2380-A44CB04861EF" referredColumn="859766C6-635F-4B7A-CE36-160056ECB729"/>
+</associations>
+</Column>
+<Column name="fecha_diagnostico" id="A194F1D6-09F7-B8E8-9208-73E0DDA489B1">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>FF23D560-259D-11E6-35A3-A71F2F29A000</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E99C4A0E-9B41-EED4-3B48-117EC8CA49CB" name="Diagnostico_Paciente_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>E3BF66D8-3898-E0AE-C06F-84AFFB975F97</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A94BA581-CD7B-7549-C34C-48BCE430A683"/>
+<colUsage columnID="B4EC7733-F7D2-244E-A307-E99196850BEF"/>
+<colUsage columnID="A194F1D6-09F7-B8E8-9208-73E0DDA489B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D8B85AF-D79C-9529-A7FC-5E10F5892434" name="Diagnostico_Paciente_Paciente_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>604E40FB-FFB8-8B30-D5EE-78A12C94EA24</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A94BA581-CD7B-7549-C34C-48BCE430A683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69E59CB9-A145-BCBB-4AC1-3A3BFAFB3442" name="Diagnostico_Paciente_Diagnostico_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>805629D7-6323-6F7D-183A-11BEF6E8A32A</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4EC7733-F7D2-244E-A307-E99196850BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

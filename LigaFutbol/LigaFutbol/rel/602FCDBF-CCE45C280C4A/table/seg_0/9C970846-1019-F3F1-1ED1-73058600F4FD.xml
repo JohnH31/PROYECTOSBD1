@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C970846-1019-F3F1-1ED1-73058600F4FD" name="Presidente">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>A6D77FE3-0C25-9AC3-D390-13A7014B66E2</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DPI" id="BD25127C-2F71-BC48-32D8-66D862495881">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>47C00191-F50D-EBE0-F682-5A1E8EE37AAD</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre1" id="20559778-5039-0D9B-0043-C2FCAA09DACC">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>143CFA7B-CE0F-60E3-D714-7F46F10997D9</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre2" id="E3DCFA3C-C3A3-A71B-CA3A-F7318E83572A">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>79910043-22F6-F3F0-E862-5BE73DA388C9</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre3" id="24903946-4A79-F6FE-4CDB-726CA18304D6">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>8DB389F3-7865-9BA7-4924-C4362118E02E</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1" id="D56BD88B-E3F2-9F7D-07EE-4AEB4C436CE8">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>C2839814-6BA8-038E-8707-E3AD3BB538D9</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2" id="B0B75828-E0DB-E9AE-2278-8EC911EF68BE">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>0898C289-01D1-E99B-A05A-72C8193F65FF</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="2DCCCF9A-A92B-E6A2-064F-71F586E15C84">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>B85D04AB-C4A9-311A-D339-BE9CDBD64141</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="413EDE14-A627-4A19-6390-C6D9B33AD8E9">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>8505C018-AB46-A8AF-8D0B-CB26917BDF85</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="municipio_residencia" id="B90B40AC-91C7-3140-E23B-4DC8037FF2D3">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>CC1A0EB1-C464-476F-EE31-176658EBC5C4</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_eleccion" id="9BBC1C4C-A2EC-FE84-9C72-057EF9BBC52D">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>F45F75AB-BCC8-5273-0FC1-A36D0FB126CE</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_equipo" id="39B8F208-5569-5EB7-635B-2603067FBBE9">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>6C8A33EA-E622-1DA4-4946-299EA7903D05</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="659D7CF0-12ED-A388-4110-1E1573C46BC8" referredColumn="344BF186-6C1E-6DDC-1B17-CBAEBED9A7BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32622E31-2D39-8E61-B1DB-C8934CCED089" name="Presidente_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>3F9B326A-0540-8F0D-4855-8EB40589AF23</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD25127C-2F71-BC48-32D8-66D862495881"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08FDDEC1-4CF7-DD7C-199F-F8E026E2AEE4" name="Presidente__IDXv1">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:45:40 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9FD49D39-C7A9-8F3A-5E12-3AD14B94CF96</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="39B8F208-5569-5EB7-635B-2603067FBBE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15282899-A709-6239-0937-3E500B7BAB3F" name="Presidente_Equipo_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>9FD49D39-C7A9-8F3A-5E12-3AD14B94CF96</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B8F208-5569-5EB7-635B-2603067FBBE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

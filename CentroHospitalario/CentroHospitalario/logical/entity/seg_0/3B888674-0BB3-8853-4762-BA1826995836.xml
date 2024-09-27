@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B888674-0BB3-8853-4762-BA1826995836" name="Diagnostico_Paciente">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:09:09 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nss_paciente" id="B7AD4093-105E-6173-E212-1D05B0E332B3">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:09:16 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_diagnostico" id="E648725E-F731-6FFE-029B-2D8B40BCBB00">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:09:29 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_diagnostico" id="FF23D560-259D-11E6-35A3-A71F2F29A000">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:10:16 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nss" id="1E1C5BE7-DEDF-A111-629E-8278885B1B35">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:47:00 UTC</createdTime>
+<generatorID>604E40FB-FFB8-8B30-D5EE-78A12C94EA24</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="false"/>
+</engineerTo>
+<referedAttribute>C0B9277C-950C-9E86-2419-0FF2F674455D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_diagnostico1" id="9E551D38-B9E8-065B-A31B-7FD29D38C9CC">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:47:07 UTC</createdTime>
+<generatorID>805629D7-6323-6F7D-183A-11BEF6E8A32A</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="false"/>
+</engineerTo>
+<referedAttribute>799D08B5-AB48-23AB-CAF4-9B6E88D998D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3BF66D8-3898-E0AE-C06F-84AFFB975F97" name="Diagnostico_Paciente PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:09:27 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7AD4093-105E-6173-E212-1D05B0E332B3</attributeRef>
+<attributeRef>E648725E-F731-6FFE-029B-2D8B40BCBB00</attributeRef>
+<attributeRef>FF23D560-259D-11E6-35A3-A71F2F29A000</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

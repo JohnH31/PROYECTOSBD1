@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="692C8AC6-BF67-3401-4D10-F206B2F913CC" name="Contrata">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:43:14 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_sucursal" id="88D1366A-EF02-4295-0E7E-8EBCA8401E21">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:43:25 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_turista" id="0F30A7A9-8554-B74E-1FB5-37DD87490EEE">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:43:54 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_contratacion" id="704C1396-622A-3B13-248E-C980E70C754E">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:43:49 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_sucursal1" id="38944590-AE7F-6154-37A6-4EBFCD71FD05">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:07:27 UTC</createdTime>
+<generatorID>08F6D3C1-54B9-E8F5-19BC-7735CEA3C4DC</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<referedAttribute>3A3508C8-6DC5-75B7-0EA7-E29AB1DED9E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_turista1" id="65214D14-E6C5-B268-CE7E-2CCE51C0076A">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:09:01 UTC</createdTime>
+<generatorID>023E8F25-D1E0-C583-E200-85D1AAA2DB77</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<referedAttribute>67CD6949-55EE-F75A-F377-188946B322F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D618157-C5FC-B187-C99C-E592DBFBE322" name="Contrata PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:45:30 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88D1366A-EF02-4295-0E7E-8EBCA8401E21</attributeRef>
+<attributeRef>0F30A7A9-8554-B74E-1FB5-37DD87490EEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

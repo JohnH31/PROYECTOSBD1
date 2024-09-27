@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FDAFECD-7451-8E0D-4673-E9A9AA8D9C38" name="Hospeda">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>8DC737AB-6C96-0DB1-893B-2D9EBF21A1F0</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_turista" id="E53DCC5C-05AE-3C3B-AE0B-C38940D80B8B">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>9ADEB00C-F137-64C5-31E4-DB23F6F74C18</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F06B6BBD-1460-F952-44C8-8F473D5F1CFE" referredColumn="62D68E1A-D53A-BAF7-742B-09E65BA68C3D"/>
+</associations>
+</Column>
+<Column name="cod_hotel" id="3786FAB6-1CAE-8189-484A-4BF11C5118B4">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>7425BD35-A602-AD75-C8C3-0D756F57DCF7</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F5B3E26F-2F48-D452-11CF-DA351FB537CF" referredColumn="741BF6CB-4FC7-A9F6-F049-44EBA55EFEEF"/>
+</associations>
+</Column>
+<Column name="regimen" id="BEF25417-2071-FA7A-E50E-D27A32EC9BF7">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>9C7BCB7B-C187-7750-DC44-7887A225D263</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="AD4D042F-6651-4D6A-421B-48AD50291D4B">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>44C991D9-FE1D-75E7-0583-E73EB6CB6416</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_partida" id="EA747C07-C3DB-2ED3-27B9-A72544CDBFC1">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>D203BED1-BBF4-5764-6379-45690BC6ABC9</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B6264B0-D0A7-67DF-9442-C5B4C7858FB2" name="Hospeda_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>CF755003-EDAE-4E5E-35E7-FD79C1093AFE</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53DCC5C-05AE-3C3B-AE0B-C38940D80B8B"/>
+<colUsage columnID="3786FAB6-1CAE-8189-484A-4BF11C5118B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD51E35E-E41F-C139-01FB-49A114FE048A" name="Hospeda_Turista_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:12:58 UTC</createdTime>
+<generatorID>61266618-3AB2-1BBA-744B-A26CAA0827A4</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53DCC5C-05AE-3C3B-AE0B-C38940D80B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="731EC777-A4A9-4365-CB3D-6F5A4FF7D58E" name="Hospeda_Hotel_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:12:58 UTC</createdTime>
+<generatorID>754ACDAE-351E-C105-1BC2-C31621F151FD</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3786FAB6-1CAE-8189-484A-4BF11C5118B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58C359C4-3A93-E510-FA2A-F457BC65CA54" containerWithKeyObject="3856B914-863B-B974-7E0B-1FB8E3281F83" localFKIndex="6769656B-AD95-9C63-E9CC-5A6B33E78150" name="Amarre_Zona_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>5F1B969A-94FF-3090-6F61-BD50E337D257</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<referredTableLongName>Zona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D142A18-4FFF-3B08-F45A-42DBFD7EAA78</referredTableID>
+<keyObject>EFD6C439-B5D4-BB6B-C42D-C0B2539C0EB7</keyObject>
+<referredKeyID>EFD6C439-B5D4-BB6B-C42D-C0B2539C0EB7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>letra_zona</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

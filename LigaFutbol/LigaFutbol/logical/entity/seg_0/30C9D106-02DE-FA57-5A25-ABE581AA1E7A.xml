@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30C9D106-02DE-FA57-5A25-ABE581AA1E7A" name="Equipo">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:02:24 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_equipo" id="397B1250-1536-2AC4-03FB-7E65D0D29A32">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:05:58 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_equipo" id="DC4F92C0-BC6F-7835-3BBE-327C481A51E2">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:07:09 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_estadio" id="BE2CFDB4-0590-825D-ECDE-3039273E4B0E">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:07:36 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aforo" id="5BD21A10-097E-50BF-CD6E-28F7DDF43EDF">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:07:37 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_fundacion" id="11B9D158-CFDB-D1AA-DA9C-B67EA159AD42">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:07:38 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departamento" id="AA0F979A-7E32-98A5-567F-8FC64CCEFA3C">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:07:39 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E471770E-2CBD-265C-502C-62CEFE7F09DF" name="Equipo PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:06:39 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>397B1250-1536-2AC4-03FB-7E65D0D29A32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

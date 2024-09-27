@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E185611-A7FB-0D99-1883-C4EA86BFE20E" name="Jugador">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:09:31 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_jugador" id="97F5FF75-E023-577C-AD60-4FC952460909">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:09:39 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre1" id="6A3EB095-5631-6B74-5591-5315FE5B7738">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:07 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre2" id="BFFBB568-0B30-85BB-8D7B-44BA545B4D8D">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:54 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre3" id="7EA6FF25-41E0-0D7B-E660-A0421EF7D65E">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:55 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido1" id="14858DBA-125B-73B6-0686-180A947CF46E">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:56 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido2" id="7AF6BB2A-FF7F-D671-E633-C810CD8F1CEE">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:57 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_electronico" id="CEE113CE-0DE2-39D5-0AC3-471077BD5238">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:58 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="municipio_residencia" id="4EDF956D-44AB-4AE8-050A-55024C434A62">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:58 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="AF63CEFA-CBA8-6133-0575-E1412AF998C4">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:59 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="posicion" id="9F17FB6E-A253-167E-31A9-7167D67063E8">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:59 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_equipo" id="E485F6B5-57EB-F9EC-9E45-66D58CFD25D0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:11:00 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_equipo1" id="00822771-B103-1BD1-FC0D-762A97D96A64">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:27:10 UTC</createdTime>
+<generatorID>FE21B837-C58D-F3FE-E309-C4C48FF45360</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="true"/>
+</engineerTo>
+<referedAttribute>397B1250-1536-2AC4-03FB-7E65D0D29A32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03E2F966-FB7E-4752-0B13-CD6AA1F1F0ED" name="Jugador PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 21:10:05 UTC</createdTime>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="602FCDBF-7982-DB54-DF98-CCE45C280C4A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97F5FF75-E023-577C-AD60-4FC952460909</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

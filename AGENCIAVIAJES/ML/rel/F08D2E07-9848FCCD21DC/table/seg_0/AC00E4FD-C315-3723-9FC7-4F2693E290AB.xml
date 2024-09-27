@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC00E4FD-C315-3723-9FC7-4F2693E290AB" name="Reserva_Vuelo">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>AEA3E817-5C61-FA4B-313C-D01147D58ADE</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_turista" id="1A8357E8-E556-5CDC-426F-AAABD9FD1CE3">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>8169B7FD-5C9B-9AD8-8DEE-5E382C26D370</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD4E4D6A-1D98-8D8A-BE95-CC527E2D663C" referredColumn="62D68E1A-D53A-BAF7-742B-09E65BA68C3D"/>
+</associations>
+</Column>
+<Column name="num_vuelo" id="4EB24C87-2BC4-955E-D1BA-26E7BC249F6C">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>43DEB518-64D4-6166-08CF-BFCCE9A4F858</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51BF05AE-371F-2EFF-2B6F-E7E4A09065D4" referredColumn="3FCEFCDB-E5C0-8312-6232-953B47F9FCB5"/>
+</associations>
+</Column>
+<Column name="clase" id="7A2FF37D-C0F5-9251-26BE-0749E11897E6">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>14744231-E88D-61E0-1D6F-5B0138F48FFE</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1447A372-1E86-D637-B6E4-B04F9567EC17" name="Reserva_Vuelo_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>A9951E93-6BC3-2459-E1FD-64FA8905ABDE</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A8357E8-E556-5CDC-426F-AAABD9FD1CE3"/>
+<colUsage columnID="4EB24C87-2BC4-955E-D1BA-26E7BC249F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83ED8282-9F75-705C-0C25-80282C86C216" name="Reserva_Vuelo_Turista_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:12:58 UTC</createdTime>
+<generatorID>F814CB26-3AFA-415C-5568-27F1DC0D671C</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A8357E8-E556-5CDC-426F-AAABD9FD1CE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5893DD2-0382-5312-50C9-0A4334DF600F" name="Reserva_Vuelo_Vuelo_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:12:58 UTC</createdTime>
+<generatorID>4EFFA0AB-42CE-EC24-4C0E-A0AB72BE0587</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EB24C87-2BC4-955E-D1BA-26E7BC249F6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

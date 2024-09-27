@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6662556C-6CE6-4377-C4F8-0B0122C75DE5" name="Embarcacion">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>8483B802-F083-9302-A89B-28635ACC2F95</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="matricula" id="7AF8DE18-A018-0A38-5B19-E5DDF0FD2785">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>A7697537-37A0-6692-399A-7B8C3812E372</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="115235A9-E55B-1CD4-A212-3C4DF10B6E13">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>B359763C-352C-F859-95FE-09A59D913B51</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="6C443797-1DB0-6884-5AED-662DC07DCDDE">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>2D71BDE9-BC0C-72D4-03BE-D542D9C4E1F1</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dimensiones" id="0C343F38-DA84-B05E-D2FB-220E723030C0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>D3B094DA-B741-46D6-D3B2-CC7EB4F658AB</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPI_Socio" id="21C9B84C-00D7-4343-EA68-FC48B4ACFE8B">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>2870BAEB-5283-66A3-68F8-FE22224C9805</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09ADD3FF-98E7-D46D-F69B-9295A4B0D8B2" referredColumn="6EE69F89-C0E2-87FB-13F6-EA9837078A55"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C196343-BEB7-86B2-7DFB-69D291D6EEE9" name="Embarcacion_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>0F381C63-A2F6-3F0F-6948-FC808028B80F</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AF8DE18-A018-0A38-5B19-E5DDF0FD2785"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B635808-71C8-9025-CDFB-E8EF5698A817" name="Embarcacion_Socio_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>64F58ECF-5122-9DAA-50B7-48A3D1B0327E</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21C9B84C-00D7-4343-EA68-FC48B4ACFE8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

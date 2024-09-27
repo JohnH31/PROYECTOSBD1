@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CDCF7DE-AF1E-31F8-FA60-B434DA960294" name="Empleado_Zona">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 18:01:08 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_empleado" id="CC9AD8B4-A863-9CB7-792A-A33BB3C38010">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 18:01:28 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="letra_zona" id="8144B350-895A-1A77-311D-3FA77A1A5782">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 18:01:52 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_barcos_encargado" id="0131BFF2-C898-8D7F-E79E-5AA092138962">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 18:02:03 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_empleado1" id="A6C5F215-B8A7-330D-F548-F5EADDB636A4">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 20:24:11 UTC</createdTime>
+<generatorID>599EE97B-C91F-B66C-4535-E30BDD6525F7</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="false"/>
+</engineerTo>
+<referedAttribute>87A99D1A-5019-67E2-551A-B5587B76D77C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="letra_zona1" id="4D58F3E4-3A50-8A91-F9A0-64090A4FC87C">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 20:24:19 UTC</createdTime>
+<generatorID>E15AB5F6-37EB-40B2-61AA-AEEF71496C10</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="false"/>
+</engineerTo>
+<referedAttribute>D4D888F8-4467-73E7-866B-BB9CF4A4CA03</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0808EEE-45EA-73B3-645E-157D9CE67210" name="Empleado_Zona PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 18:01:45 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CC9AD8B4-A863-9CB7-792A-A33BB3C38010</attributeRef>
+<attributeRef>8144B350-895A-1A77-311D-3FA77A1A5782</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

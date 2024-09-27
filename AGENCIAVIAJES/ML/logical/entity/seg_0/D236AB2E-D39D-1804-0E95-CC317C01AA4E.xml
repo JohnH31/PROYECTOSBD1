@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D236AB2E-D39D-1804-0E95-CC317C01AA4E" name="Sucursal">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:25:08 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_sucursal" id="3A3508C8-6DC5-75B7-0EA7-E29AB1DED9E9">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:25:40 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="24B6431E-1660-3AA4-338B-7BF29BF52AAE">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:28:12 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="9B9DEBD1-96E6-0075-5B15-044872618CAC">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:28:54 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="726039ED-C9BC-A5AB-5199-26C7FC0411F4" name="Sucursal PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:27:29 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A3508C8-6DC5-75B7-0EA7-E29AB1DED9E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

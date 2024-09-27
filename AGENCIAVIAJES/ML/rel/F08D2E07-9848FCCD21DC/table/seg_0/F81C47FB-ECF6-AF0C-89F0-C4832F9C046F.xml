@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F81C47FB-ECF6-AF0C-89F0-C4832F9C046F" name="Vuelo">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>A0D1552A-4536-F879-FD91-517D59FC2CB8</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_vuelo" id="3FCEFCDB-E5C0-8312-6232-953B47F9FCB5">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>0D1DFA66-FCB1-1C03-653D-DD02FC0F18EB</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="E3737E7D-D305-BD17-8647-A45E27BD05FB">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>BB0B3640-B971-13D5-F14C-183B1707F82D</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="CDC1A73A-39DD-526C-6F34-DFF53723F60F">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>317897C0-D2ED-7F6F-7AC7-25E8B489CA52</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="origen" id="87CA4C92-8C83-DC05-2E89-8B6E919C0C35">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>09A6E413-0C40-18F9-62D0-EF17FAD09289</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="destino" id="43DC430F-AC15-8290-409F-92545DDE7FF3">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>5AE0D275-A229-9364-FE5C-0BD262CB700E</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plazas_totales" id="8F89667C-8D88-9FF0-9257-0016BBB7279F">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>57111ED4-6317-A997-C061-CD47303B12F0</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plazas_clase_turista" id="9FD3F264-77C4-2C4C-FA98-F5442CAAAB8F">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>333F6BF8-75F5-4B4E-D6CC-2EDDFADC7094</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5E37749-6799-196B-C4A1-FF24FA0D45FC" name="Vuelo_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>791B6C5D-1845-BE63-0752-CA1DF7DB2343</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FCEFCDB-E5C0-8312-6232-953B47F9FCB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

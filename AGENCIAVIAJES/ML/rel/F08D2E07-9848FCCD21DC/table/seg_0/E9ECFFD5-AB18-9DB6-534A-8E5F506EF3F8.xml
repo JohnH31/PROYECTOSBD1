@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9ECFFD5-AB18-9DB6-534A-8E5F506EF3F8" name="Turista">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>85910BE6-23FC-6F39-68A6-0537B9C8469F</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_turista" id="62D68E1A-D53A-BAF7-742B-09E65BA68C3D">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>67CD6949-55EE-F75A-F377-188946B322F2</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre1" id="B680F9F2-212E-B7CE-7250-5360986BACF5">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>80657EA8-8AED-9D78-5864-84CA9BD83A3E</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre2" id="F88024DD-C731-77DA-94EC-BD361087F78A">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>610A6BAA-E607-517C-E404-F870F9295A13</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre3" id="6640D321-D192-7E85-8EDD-69978DF71175">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>1E3733D3-4003-9784-CA4F-EE4F36F54DE3</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido1" id="383456CD-ADC0-2C60-BB52-0EF8FA9FC7C6">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>C897373B-6AEB-5350-1DE4-9B04691062FF</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido2" id="64183596-1CE2-1A28-597C-4417EE269890">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>8F0C044D-3608-86A1-B1CE-904FB9A80D1A</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="4D6E0EB4-6953-B042-11A9-D4630EB7001B">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>7741C077-BEAF-AE80-A78B-797CE55CD769</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonos" id="011A83FA-5442-1370-B699-914B079108F9">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>B714647A-D695-785F-6D86-11C9E340B8D8</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correos_electronicos" id="C3762DF9-5096-2E0E-C7A6-DC732A202DEF">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>F0AB5393-CBCC-20F0-7B1B-295E4923569B</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais_residencia" id="CF4DB99E-4B6E-B0E7-5468-7692E9179DF2">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>77D9F96E-76BF-BC62-BAE9-96215333890E</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C799AF37-AC0C-D9BB-8A4D-EA6F39622E59" name="Turista_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>64F55869-6490-39DE-B5DE-86B8D6339198</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62D68E1A-D53A-BAF7-742B-09E65BA68C3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

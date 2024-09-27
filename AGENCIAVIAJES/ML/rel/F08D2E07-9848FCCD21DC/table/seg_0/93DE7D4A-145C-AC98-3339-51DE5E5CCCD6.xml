@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93DE7D4A-145C-AC98-3339-51DE5E5CCCD6" name="Contrata">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>692C8AC6-BF67-3401-4D10-F206B2F913CC</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_sucursal" id="F3639998-4F42-619E-1FCF-98A67B008816">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>88D1366A-EF02-4295-0E7E-8EBCA8401E21</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24CC9EA0-1DC3-E4F8-D44A-B967FE0BF919" referredColumn="6F55C03A-0D65-CA6A-F5AF-C5A4D65007B4"/>
+</associations>
+</Column>
+<Column name="cod_turista" id="DFD6BCE1-F2D9-A739-9BC2-3CF07D4CAA07">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>0F30A7A9-8554-B74E-1FB5-37DD87490EEE</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCD4C450-90EE-B723-CE21-071D00942CC1" referredColumn="62D68E1A-D53A-BAF7-742B-09E65BA68C3D"/>
+</associations>
+</Column>
+<Column name="fecha_contratacion" id="A0FFE4C3-AE4A-C3C1-92BA-1E771021A291">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>704C1396-622A-3B13-248E-C980E70C754E</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65BBFD0B-1A5E-CFC3-0C1B-C44F18A3EDB8" name="Contrata_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 19:59:34 UTC</createdTime>
+<generatorID>9D618157-C5FC-B187-C99C-E592DBFBE322</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3639998-4F42-619E-1FCF-98A67B008816"/>
+<colUsage columnID="DFD6BCE1-F2D9-A739-9BC2-3CF07D4CAA07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC28AA8A-3B83-60AC-6859-D708C5B02885" name="Contrata_Sucursal_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:12:58 UTC</createdTime>
+<generatorID>08F6D3C1-54B9-E8F5-19BC-7735CEA3C4DC</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3639998-4F42-619E-1FCF-98A67B008816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E93E04C7-DE23-C76F-F039-419726D1C6E3" name="Contrata_Turista_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:12:58 UTC</createdTime>
+<generatorID>023E8F25-D1E0-C583-E200-85D1AAA2DB77</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFD6BCE1-F2D9-A739-9BC2-3CF07D4CAA07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

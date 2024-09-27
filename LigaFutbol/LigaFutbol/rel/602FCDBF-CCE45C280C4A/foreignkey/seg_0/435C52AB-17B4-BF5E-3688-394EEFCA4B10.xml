@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="435C52AB-17B4-BF5E-3688-394EEFCA4B10" containerWithKeyObject="78F3AB19-A702-2623-A6C4-6EBD9AC0FFE1" localFKIndex="BA7E7040-7C19-6497-1792-D88EBC40600D" name="Gol_Partido_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>6EB2F93C-C9FC-C4BA-980F-E24D912CA6B0</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<referredTableLongName>Partido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B10C9DB-A2D0-3032-84BB-70D8759FE53B</referredTableID>
+<keyObject>BF25FABA-93B5-32F8-9323-A681DF7E2A91</keyObject>
+<referredKeyID>BF25FABA-93B5-32F8-9323-A681DF7E2A91</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_partido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

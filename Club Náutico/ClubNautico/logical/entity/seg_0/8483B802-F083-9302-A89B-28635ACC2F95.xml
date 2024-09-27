@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8483B802-F083-9302-A89B-28635ACC2F95" name="Embarcacion">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:46:53 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="matricula" id="A7697537-37A0-6692-399A-7B8C3812E372">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:46:58 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="B359763C-352C-F859-95FE-09A59D913B51">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:47:16 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="2D71BDE9-BC0C-72D4-03BE-D542D9C4E1F1">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:47:36 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dimensiones" id="D3B094DA-B741-46D6-D3B2-CC7EB4F658AB">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:47:38 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPI_Socio" id="2870BAEB-5283-66A3-68F8-FE22224C9805">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:47:39 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>15 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPI" id="CBE6D991-AF93-3AA0-1AB4-4D590AC8EA0B">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 20:20:38 UTC</createdTime>
+<generatorID>64F58ECF-5122-9DAA-50B7-48A3D1B0327E</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="false"/>
+</engineerTo>
+<referedAttribute>B2E379F7-784D-F2DF-41B3-E35D173C2615</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0F381C63-A2F6-3F0F-6948-FC808028B80F" name="Embarcacion PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:47:14 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<engineerTo>
+<item key="55B82864-F638-3ACE-3B21-45A3B9408C82" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7697537-37A0-6692-399A-7B8C3812E372</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

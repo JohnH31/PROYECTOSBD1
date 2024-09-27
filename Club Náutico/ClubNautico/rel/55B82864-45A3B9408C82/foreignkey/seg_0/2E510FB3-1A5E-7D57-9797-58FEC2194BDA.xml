@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2E510FB3-1A5E-7D57-9797-58FEC2194BDA" containerWithKeyObject="3856B914-863B-B974-7E0B-1FB8E3281F83" localFKIndex="2206824D-515E-B52F-9E54-C1711D03D742" name="Amarre_Socio_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>3870F74F-9602-1DF2-C5FC-D3A934A5EEFA</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<referredTableLongName>Socio</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ABD8C40D-BB31-1D71-BC35-3A3F16EE0795</referredTableID>
+<keyObject>A451BE32-485D-0EC1-C9D6-E32C70E9B545</keyObject>
+<referredKeyID>A451BE32-485D-0EC1-C9D6-E32C70E9B545</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DPI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

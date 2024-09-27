@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B10C9DB-A2D0-3032-84BB-70D8759FE53B" name="Partido">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>59E3BD72-11E9-888C-20F1-6C487457786D</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_partido" id="8A1BDA46-B5E0-9A54-FEFF-AE278F540E73">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>1FB27A30-62B3-245D-9AE6-985510C8137F</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_partido" id="7AE2344A-B5B0-921B-665D-B32D439712CF">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>7094D222-109E-30AA-63E3-1436C977DC47</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goles_equipo_casa" id="869D41F4-EA9C-55BB-B4F6-A20858859DC5">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>EB87BA44-DD26-66DA-8D77-B95D5DD17D58</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="goles_equipo_visitante" id="6E654690-EA6C-BEFE-AD9B-E29ED5052136">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>C151FDB4-3D16-3A7F-C1C6-D5B1BB91B24E</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_equipo_casa" id="CF8C982C-CC39-172C-09FE-468E52F03F51">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>DD64C28A-A301-A785-2656-9501190620B9</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C406DB2-4334-5236-FAC2-CE7DBACE6FF0" referredColumn="344BF186-6C1E-6DDC-1B17-CBAEBED9A7BE"/>
+</associations>
+</Column>
+<Column name="cod_equipo_visitante" id="9E8D82F4-4D7E-10CA-6A51-5C86DCE32C7F">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>27E9BDCB-B891-9ED6-5750-83741EE44F53</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF16999F-DA78-F083-03BC-FAA3152B87BE" referredColumn="344BF186-6C1E-6DDC-1B17-CBAEBED9A7BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF25FABA-93B5-32F8-9323-A681DF7E2A91" name="Partido_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>2BFBC246-9576-94A1-A96E-F8ECB6461049</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A1BDA46-B5E0-9A54-FEFF-AE278F540E73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA92DF77-7995-CF02-C89B-95DA7B002809" name="Partido_Equipo_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:35:50 UTC</createdTime>
+<generatorID>6677D6C5-DAF2-4BD3-3B0E-B9B778892890</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF8C982C-CC39-172C-09FE-468E52F03F51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46C278B0-3F42-D476-72DF-37B10AAF62AE" name="Partido_Equipo_FKv2">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 22:45:40 UTC</createdTime>
+<generatorID>7CC03508-9028-4E8A-F12F-2E2280D25FD2</generatorID>
+<ownerDesignName>LigaFutbol</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E8D82F4-4D7E-10CA-6A51-5C86DCE32C7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

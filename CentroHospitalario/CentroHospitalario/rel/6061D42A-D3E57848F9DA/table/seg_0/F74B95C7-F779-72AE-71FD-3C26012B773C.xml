@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F74B95C7-F779-72AE-71FD-3C26012B773C" name="Visita_Medica">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>FCA4743B-F31F-4AB4-8DD2-FD49DAF11779</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nss_paciente" id="520DC524-2A9C-1843-84FE-96701D718857">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>A7240300-0B8F-B4DF-A285-8238CEB977EA</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="601D61E5-64A8-026C-C3F4-FD6DE3ACC117" referredColumn="942DBF1E-DDBD-76F8-6867-C58AAE630DE8"/>
+</associations>
+</Column>
+<Column name="cod_medico" id="B5FE40AD-38B8-5C02-F66E-723DC19ED6BD">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>6558E35F-7C42-F0A5-785A-5AA2021F95D4</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0A5A872-2A02-33BC-6127-B4461B52AB7E" referredColumn="7D6639CD-05A7-CC6A-CEAF-F523B15EA6FB"/>
+</associations>
+</Column>
+<Column name="fecha_visita" id="77538C86-46E1-98C8-0FBB-CE96EF6F34B0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>9A27B8C3-EECF-6514-C2FF-62AE96AF81F8</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_visita" id="3B84112C-6FF0-58DD-5BD2-22BC57991BC5">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>0039DB4B-6401-D44C-B72A-E8B7EC2EB11C</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E08E389-EBC9-DF7B-185C-BADA35A81B37" name="Visita_Medica_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>AAB41780-838A-10E4-E768-0D6B944C5DB3</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="520DC524-2A9C-1843-84FE-96701D718857"/>
+<colUsage columnID="B5FE40AD-38B8-5C02-F66E-723DC19ED6BD"/>
+<colUsage columnID="77538C86-46E1-98C8-0FBB-CE96EF6F34B0"/>
+<colUsage columnID="3B84112C-6FF0-58DD-5BD2-22BC57991BC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0782E648-D0A8-6999-2130-C9996D24B209" name="Visita_Medica_Paciente_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>26995A72-C159-B819-2A7C-B348CE993D88</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="520DC524-2A9C-1843-84FE-96701D718857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5C0C94F-78F4-59AD-E998-43108E116252" name="Visita_Medica_Medico_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>E31003CD-3A97-4E82-40DD-50ABD99108DA</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5FE40AD-38B8-5C02-F66E-723DC19ED6BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AEA3E817-5C61-FA4B-313C-D01147D58ADE" name="Reserva_Vuelo">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:46:12 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_turista" id="8169B7FD-5C9B-9AD8-8DEE-5E382C26D370">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:46:17 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_vuelo" id="43DEB518-64D4-6166-08CF-BFCCE9A4F858">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:46:37 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="clase" id="14744231-E88D-61E0-1D6F-5B0138F48FFE">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:46:38 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_turista1" id="E0CD7C8C-BE7D-CF0F-117E-A9DBECF8A168">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:09:14 UTC</createdTime>
+<generatorID>F814CB26-3AFA-415C-5568-27F1DC0D671C</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<referedAttribute>67CD6949-55EE-F75A-F377-188946B322F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_vuelo1" id="721BC434-A14E-97C6-0826-29EDAF6E1BB0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:09:25 UTC</createdTime>
+<generatorID>4EFFA0AB-42CE-EC24-4C0E-A0AB72BE0587</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<referedAttribute>0D1DFA66-FCB1-1C03-653D-DD02FC0F18EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9951E93-6BC3-2459-E1FD-64FA8905ABDE" name="Reserva_Vuelo PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:46:33 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8169B7FD-5C9B-9AD8-8DEE-5E382C26D370</attributeRef>
+<attributeRef>43DEB518-64D4-6166-08CF-BFCCE9A4F858</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

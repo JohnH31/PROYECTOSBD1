@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="71BAACF3-B0B3-FA88-E040-B63D51596B42" name="Cama">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:53:33 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_cama" id="B57C72FA-67F0-4290-12B6-F55126420000">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:53:43 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_planta" id="A18F3F49-3B2B-A1C3-8D0B-0636108F6BF9">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:54:11 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_asignacion" id="8B387F34-A184-EDCC-4983-366DE1EFB3D4">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:54:40 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nss_paciente" id="22855631-D775-5599-19A6-160BA0110986">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:54:59 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nss" id="BDE59A58-780F-60A0-1A69-05F077392C7B">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:43:53 UTC</createdTime>
+<generatorID>DCCD0281-DFA9-AFEE-DCB0-87EDC7731B04</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="false"/>
+</engineerTo>
+<referedAttribute>C0B9277C-950C-9E86-2419-0FF2F674455D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_planta1" id="64DACAD1-E857-D8C0-3AFC-30DF7D49CA6A">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:50:17 UTC</createdTime>
+<generatorID>2DBB16EF-F1E1-50AF-D275-B07D0FB45F41</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="false"/>
+</engineerTo>
+<referedAttribute>C1CDF265-5BD4-6A34-0536-07ED78E5B3C6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CD8EB30C-94B2-4C87-2DF5-37B19AB1265B" name="Cama PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:54:10 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B57C72FA-67F0-4290-12B6-F55126420000</attributeRef>
+<attributeRef>A18F3F49-3B2B-A1C3-8D0B-0636108F6BF9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

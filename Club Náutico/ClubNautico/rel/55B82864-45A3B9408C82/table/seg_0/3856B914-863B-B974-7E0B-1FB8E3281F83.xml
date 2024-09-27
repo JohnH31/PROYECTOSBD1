@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3856B914-863B-B974-7E0B-1FB8E3281F83" name="Amarre">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>5F96438F-22F6-63FA-FCAC-35E19A67A19D</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_amarre" id="805D738A-D0DC-6A9B-20A4-64A058F97AA1">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>D84A182D-87E5-5347-257D-A9254C1C591D</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lectura_contador_agua" id="B84FB914-AA17-6163-2AD9-89B7B8851A83">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>05939316-A684-23EC-87F8-7C045E35F341</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lectura_contador_luz" id="FA1B0A74-779B-14BB-E7F9-DEBCE0EEC138">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>69C3A749-FFAD-E1C2-A796-2390FDCFD282</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="servicios_mantenimiento" id="23450D52-E1F4-28B7-3050-1B3DB9DF668E">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>F5D2FC27-D77C-4A1F-A4E3-F9FB6D317444</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula_embarcacion" id="7E5FF1AF-EFC1-3BBE-D2F1-C66A5350030A">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>77B0385D-3BC9-2CEE-19DD-93981D4A01DB</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8258676-4569-B37A-9092-CFB175CCD646" referredColumn="7AF8DE18-A018-0A38-5B19-E5DDF0FD2785"/>
+</associations>
+</Column>
+<Column name="fecha_asignacion" id="E2CE3ED8-0808-1B24-A14B-E54BD56AC30E">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>D71F20F1-93FD-4BF1-A07A-9D333AB7D3C1</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPI_Socio" id="3B434759-7A62-36E8-D691-D7F21D9895F1">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>CF10AFB3-CF11-F85B-F971-A911EE5C3E1B</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E510FB3-1A5E-7D57-9797-58FEC2194BDA" referredColumn="6EE69F89-C0E2-87FB-13F6-EA9837078A55"/>
+</associations>
+</Column>
+<Column name="fecha_compra" id="1209C69F-53C2-A537-D5FD-EFBC07EA0307">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>5DC43F5C-0139-AA03-CEBD-C6C34B747513</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="letra_zona" id="C2D5736A-4C88-6C3D-1106-D5871A3E728D">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>649BBAF6-841B-9156-AE30-A1DEC2FDFDED</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C359C4-3A93-E510-FA2A-F457BC65CA54" referredColumn="CEC4559B-A3BB-CB0F-0FDA-C8BA7C9D0FB8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF8CF360-F9E7-1FB1-4245-F67172C2336F" name="Amarre_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>DB9E7271-0B69-9388-7C76-C10DD20E94BC</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="805D738A-D0DC-6A9B-20A4-64A058F97AA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2206824D-515E-B52F-9E54-C1711D03D742" name="Amarre_Socio_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>3870F74F-9602-1DF2-C5FC-D3A934A5EEFA</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B434759-7A62-36E8-D691-D7F21D9895F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D4896FE-CDDB-AB7A-A181-0379F1B2823E" name="Amarre_Embarcacion_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>4BF592A4-5FE4-1B6E-9520-383C09C62A53</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E5FF1AF-EFC1-3BBE-D2F1-C66A5350030A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6769656B-AD95-9C63-E9CC-5A6B33E78150" name="Amarre_Zona_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>5F1B969A-94FF-3090-6F61-BD50E337D257</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2D5736A-4C88-6C3D-1106-D5871A3E728D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

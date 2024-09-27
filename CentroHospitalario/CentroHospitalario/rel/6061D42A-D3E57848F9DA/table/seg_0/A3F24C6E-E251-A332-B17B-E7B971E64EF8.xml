@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A3F24C6E-E251-A332-B17B-E7B971E64EF8" name="Medico_Diagnostico">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>1853F23C-B731-53F1-D54B-EB55BD1FDBA7</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_medico" id="791D6FCD-69C0-6242-ACD0-434B12081430">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>D4E5CF53-875B-036F-2EC7-F0846B1C7820</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DBAE6EC-9155-9170-02A9-B15603BF3536" referredColumn="7D6639CD-05A7-CC6A-CEAF-F523B15EA6FB"/>
+</associations>
+</Column>
+<Column name="cod_diagnostico" id="96DEA8E7-EF89-44D8-F6CF-DD2EFF706377">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>D692D35E-8F72-CDD6-C012-B92CFCA0D8E6</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEF03A80-8702-1894-B6F7-484D82792806" referredColumn="859766C6-635F-4B7A-CE36-160056ECB729"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="844E0F78-D573-281B-00E0-9C6CA37579DA" name="Medico_Diagnostico_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>D24515E9-D484-2E5F-DC72-08C1F81C085F</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="791D6FCD-69C0-6242-ACD0-434B12081430"/>
+<colUsage columnID="96DEA8E7-EF89-44D8-F6CF-DD2EFF706377"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA24DEDA-9647-E46E-A59C-A8269BAF97E0" name="Medico_Diagnostico_Medico_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>D5A118B9-97E2-09EF-0A59-BDF2975DEA6E</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="791D6FCD-69C0-6242-ACD0-434B12081430"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65FA49AA-FF5C-D16D-6812-173F96EA42B5" name="Medico_Diagnostico_Diagnostico_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>E85954CB-50A0-074C-56DA-306028555566</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96DEA8E7-EF89-44D8-F6CF-DD2EFF706377"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCA4743B-F31F-4AB4-8DD2-FD49DAF11779" name="Visita_Medica">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:01:33 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nss_paciente" id="A7240300-0B8F-B4DF-A285-8238CEB977EA">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:06:32 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_medico" id="6558E35F-7C42-F0A5-785A-5AA2021F95D4">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:06:38 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_visita" id="9A27B8C3-EECF-6514-C2FF-62AE96AF81F8">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:06:43 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_visita" id="0039DB4B-6401-D44C-B72A-E8B7EC2EB11C">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:06:48 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nss" id="8CF88CED-D9B6-B546-71FC-94B68770783C">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:46:26 UTC</createdTime>
+<generatorID>26995A72-C159-B819-2A7C-B348CE993D88</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="false"/>
+</engineerTo>
+<referedAttribute>C0B9277C-950C-9E86-2419-0FF2F674455D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_medico1" id="28E533C9-7E33-A75F-0B86-2BDACE8071B0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:46:32 UTC</createdTime>
+<generatorID>E31003CD-3A97-4E82-40DD-50ABD99108DA</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="false"/>
+</engineerTo>
+<referedAttribute>7C764861-5F86-574C-FA0C-EE68DDFB8AFB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAB41780-838A-10E4-E768-0D6B944C5DB3" name="Visita_Medica PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 23:08:23 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<engineerTo>
+<item key="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7240300-0B8F-B4DF-A285-8238CEB977EA</attributeRef>
+<attributeRef>6558E35F-7C42-F0A5-785A-5AA2021F95D4</attributeRef>
+<attributeRef>9A27B8C3-EECF-6514-C2FF-62AE96AF81F8</attributeRef>
+<attributeRef>0039DB4B-6401-D44C-B72A-E8B7EC2EB11C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56E67EF7-664E-1D19-575C-A51DEBA9B22F" name="Diagnostico">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>0FAD5A78-A8BE-E0F1-6A85-1CED4FB9D314</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_diagnostico" id="859766C6-635F-4B7A-CE36-160056ECB729">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>799D08B5-AB48-23AB-CAF4-9B6E88D998D7</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="CF36BD3D-2734-390F-FAE2-22AF33D02186">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>C7138A9F-8C70-9F3A-6BA1-5E03B22C96E7</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7132288-7426-6197-EDDF-022A0BCC3AB1" name="Diagnostico_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>EA78BA18-0D04-916B-9DAF-474A7CE4CA83</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="859766C6-635F-4B7A-CE36-160056ECB729"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

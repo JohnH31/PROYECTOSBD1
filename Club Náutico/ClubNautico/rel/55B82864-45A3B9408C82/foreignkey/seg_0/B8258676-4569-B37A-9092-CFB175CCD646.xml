@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B8258676-4569-B37A-9092-CFB175CCD646" containerWithKeyObject="3856B914-863B-B974-7E0B-1FB8E3281F83" localFKIndex="8D4896FE-CDDB-AB7A-A181-0379F1B2823E" name="Amarre_Embarcacion_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>4BF592A4-5FE4-1B6E-9520-383C09C62A53</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<referredTableLongName>Embarcacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6662556C-6CE6-4377-C4F8-0B0122C75DE5</referredTableID>
+<keyObject>3C196343-BEB7-86B2-7DFB-69D291D6EEE9</keyObject>
+<referredKeyID>3C196343-BEB7-86B2-7DFB-69D291D6EEE9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

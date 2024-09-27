@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DC737AB-6C96-0DB1-893B-2D9EBF21A1F0" name="Hospeda">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:52:24 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_turista" id="9ADEB00C-F137-64C5-31E4-DB23F6F74C18">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:52:32 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_hotel" id="7425BD35-A602-AD75-C8C3-0D756F57DCF7">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:52:52 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="regimen" id="9C7BCB7B-C187-7750-DC44-7887A225D263">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:53:16 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada" id="44C991D9-FE1D-75E7-0583-E73EB6CB6416">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:53:44 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_partida" id="D203BED1-BBF4-5764-6379-45690BC6ABC9">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:54:00 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_turista1" id="41EDDE89-AA7E-7ED8-4E03-F96F60672EE7">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:09:07 UTC</createdTime>
+<generatorID>61266618-3AB2-1BBA-744B-A26CAA0827A4</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<referedAttribute>67CD6949-55EE-F75A-F377-188946B322F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_hotel1" id="4AD75B97-4963-2741-052F-DC7A5449BB82">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 20:09:21 UTC</createdTime>
+<generatorID>754ACDAE-351E-C105-1BC2-C31621F151FD</generatorID>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<referedAttribute>E0F1B92C-655D-DEB4-91BD-F95A63CF1AA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CF755003-EDAE-4E5E-35E7-FD79C1093AFE" name="Hospeda PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-24 17:52:48 UTC</createdTime>
+<ownerDesignName>ML</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F08D2E07-F340-1949-9BEF-9848FCCD21DC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9ADEB00C-F137-64C5-31E4-DB23F6F74C18</attributeRef>
+<attributeRef>7425BD35-A602-AD75-C8C3-0D756F57DCF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

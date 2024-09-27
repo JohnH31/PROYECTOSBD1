@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ClubNautico" id="417CFCB2-A287-9F0C-CD9C-47302ADC3E18" version="3.5">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 17:43:30 UTC</createdTime>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>417CFCB2-A287-9F0C-CD9C-47302ADC3E18</designId>
+</OSDM_Design>

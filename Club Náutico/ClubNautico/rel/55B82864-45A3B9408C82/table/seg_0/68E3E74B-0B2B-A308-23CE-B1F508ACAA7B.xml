@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68E3E74B-0B2B-A308-23CE-B1F508ACAA7B" name="Empleado_Zona">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>4CDCF7DE-AF1E-31F8-FA60-B434DA960294</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_empleado" id="36B913DD-04A1-CA6E-8D0A-5C13CBBAEFE4">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>CC9AD8B4-A863-9CB7-792A-A33BB3C38010</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C737323B-D161-AF52-D6EB-2EF70409B5B4" referredColumn="F0C3E579-DC32-BFD9-9C06-2CAAE1A9A73E"/>
+</associations>
+</Column>
+<Column name="letra_zona" id="249C807D-9976-B4C3-DCA4-CAF795C0E5D0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>8144B350-895A-1A77-311D-3FA77A1A5782</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95709B82-A532-E05E-9BEA-1ACF9F96EF39" referredColumn="CEC4559B-A3BB-CB0F-0FDA-C8BA7C9D0FB8"/>
+</associations>
+</Column>
+<Column name="numero_barcos_encargado" id="22B5EDD4-DA71-458F-CAAF-67267A3B4313">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>0131BFF2-C898-8D7F-E79E-5AA092138962</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="82F04483-5742-3427-7637-E19131BC229E" name="Empleado_Zona_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>D0808EEE-45EA-73B3-645E-157D9CE67210</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36B913DD-04A1-CA6E-8D0A-5C13CBBAEFE4"/>
+<colUsage columnID="249C807D-9976-B4C3-DCA4-CAF795C0E5D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9DCD459-5752-2B4F-3284-1EBEFA7FF4DC" name="Empleado_Zona_Empleado_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>599EE97B-C91F-B66C-4535-E30BDD6525F7</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36B913DD-04A1-CA6E-8D0A-5C13CBBAEFE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0656AE8-8876-726A-CFC4-164E82B72667" name="Empleado_Zona_Zona_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:18:17 UTC</createdTime>
+<generatorID>E15AB5F6-37EB-40B2-61AA-AEEF71496C10</generatorID>
+<ownerDesignName>ClubNautico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249C807D-9976-B4C3-DCA4-CAF795C0E5D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

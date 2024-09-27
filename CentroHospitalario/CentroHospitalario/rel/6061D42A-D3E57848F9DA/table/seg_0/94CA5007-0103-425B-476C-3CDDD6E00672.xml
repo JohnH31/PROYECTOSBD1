@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="94CA5007-0103-425B-476C-3CDDD6E00672" name="Cama">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>71BAACF3-B0B3-FA88-E040-B63D51596B42</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_cama" id="8FC5F44F-4507-993E-4101-038098269BFB">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>B57C72FA-67F0-4290-12B6-F55126420000</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_planta" id="27194EE0-5A57-753C-D23B-91E35B336EF6">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>A18F3F49-3B2B-A1C3-8D0B-0636108F6BF9</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEBB1FD7-B53B-2050-99B6-8A04B94B2AC5" referredColumn="5AAB6800-7CE3-3A82-2425-731E582C1890"/>
+</associations>
+</Column>
+<Column name="fecha_asignacion" id="E702B6AB-07AD-8A11-5F9A-802F526EE1E0">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>8B387F34-A184-EDCC-4983-366DE1EFB3D4</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nss_paciente" id="9E77819F-714D-2FAA-94A0-8CA61C0879E5">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>22855631-D775-5599-19A6-160BA0110986</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6EF5910-29FE-6576-AC92-9E763F3CD19B" referredColumn="942DBF1E-DDBD-76F8-6867-C58AAE630DE8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D8A6E76-9514-5FEB-90FE-4A929A09D808" name="Cama_PK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>CD8EB30C-94B2-4C87-2DF5-37B19AB1265B</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FC5F44F-4507-993E-4101-038098269BFB"/>
+<colUsage columnID="27194EE0-5A57-753C-D23B-91E35B336EF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DF66DA3-C787-7C0C-D2AC-EB1176AFE22C" name="Cama_Paciente_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>DCCD0281-DFA9-AFEE-DCB0-87EDC7731B04</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E77819F-714D-2FAA-94A0-8CA61C0879E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="713B99A9-B7F9-6D8E-EDA2-6249EA9B9462" name="Cama_Planta_FK">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-26 00:26:09 UTC</createdTime>
+<generatorID>2DBB16EF-F1E1-50AF-D275-B07D0FB45F41</generatorID>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27194EE0-5A57-753C-D23B-91E35B336EF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

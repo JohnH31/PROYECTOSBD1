@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6061D42A-1CCF-7ED2-4466-D3E57848F9DA" mainViewID="7D1D68AD-3AB9-9ACE-167C-4787CB651200">
+<createdBy>jona9</createdBy>
+<createdTime>2024-09-25 22:48:51 UTC</createdTime>
+<ownerDesignName>CentroHospitalario</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
